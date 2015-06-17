@@ -1,0 +1,3 @@
+[submodule "PyLMS"]
+	path = PyLMS
+	url = ./PyLMS
