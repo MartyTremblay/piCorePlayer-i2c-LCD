@@ -2,10 +2,11 @@
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
-sys.path.insert(0, './PyLMS')
-from time import sleep                                                                                                                                                                                        
-import textwrap                                                                                                                                                                                               
-import subprocess                                                                                                                                                                                             
+sys.path.append('./PyLMS')
+sys.path.append('./RPi_I2C_driver')
+from time import sleep
+import textwrap
+import subprocess
 from uuid import getnode as get_mac 
 from pylms.server import Server
 from pylms.player import Player
