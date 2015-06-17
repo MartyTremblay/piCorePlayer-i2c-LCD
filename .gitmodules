@@ -1,3 +1,6 @@
 [submodule "PyLMS"]
 	path = PyLMS
 	url = ./PyLMS
+[submodule "RPi_I2C_driver"]
+	path = RPi_I2C_driver
+	url = https://gist.github.com/MartyTremblay/7a7fbf76c0c93734511b
